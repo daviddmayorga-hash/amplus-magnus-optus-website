@@ -12,7 +12,7 @@ Single-page static site. No build process or dependencies required.
 7. Once DNS and certificate provision, enable **Enforce HTTPS**. Test `https://amo.business` and `https://www.amo.business` if configured.
 
 ## Before launch
-- **Confirm inquiry email**. The `mailto:` link currently uses `info@amplusmagnusoptus.com` as an UNVERIFIED placeholder; replace with the correct address. The page visibly flags this.
+- The inquiry button and visible contact line use `contact@amo.business`.
 - Replace the future-content placeholders in Perspectives when podcasts/articles exist.
 - Review positioning and legal language.
 - Optionally add analytics and a form service (static GitHub Pages cannot process forms itself).
