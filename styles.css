@@ -3,3 +3,7 @@
 
 /* Brand shorthand: AMO Consulting */
 .brand-name{font-size:15px;letter-spacing:.09em}.brand-name small{font-size:8px;letter-spacing:.18em}@media(max-width:700px){.brand-name{font-size:12px}.brand-name small{font-size:6px}}
+
+
+/* Selected clients and collaborators ticker */
+.client-ticker{padding:26px 0 30px;background:#151d1a;border-top:1px solid #ffffff12;border-bottom:1px solid #ffffff12;overflow:hidden}.client-ticker-heading{text-align:center;color:#a8b6aa;font:600 9px 'DM Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;margin:0 0 20px}.ticker-window{overflow:hidden;position:relative}.ticker-track{display:flex;width:max-content;animation:client-ticker-scroll 48s linear infinite}.ticker-window:hover .ticker-track{animation-play-state:paused}.ticker-group{display:flex;align-items:center;gap:76px;padding:0 38px}.client-logo{width:190px;height:76px;flex:0 0 190px;display:grid;place-items:center}.client-logo img{display:block;max-width:176px;max-height:64px;width:auto;height:auto;object-fit:contain}.client-logo img[src*="runway"]{max-width:188px;max-height:52px}.client-logo img[src*="rouge-wright"]{max-width:178px;max-height:62px}.client-logo img[src*="american-film"],.client-logo img[src*="ai-film3"],.client-logo img[src*="new-life"]{max-width:68px;max-height:68px}@keyframes client-ticker-scroll{to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){.ticker-window{overflow-x:auto}.ticker-track{animation:none;width:max-content}}
